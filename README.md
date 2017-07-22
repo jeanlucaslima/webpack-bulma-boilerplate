@@ -87,7 +87,7 @@ npm install sass-loader node-sass css-loader extract-text-webpack-plugin babel-c
 ***Run the command***
 
 ```bash
-npm run build
+npm run dev
 ```
 
 This is the production version with the local webpack testing server. The entry is the file location to the starting point main file and the output is the combined file with all the code.
@@ -95,7 +95,7 @@ This is the production version with the local webpack testing server. The entry 
 ***Run the command***
 
 ```bash
-npm run build:prod
+npm run build
 ```
 
 This is the production version minified and for deployment on the web etc...
